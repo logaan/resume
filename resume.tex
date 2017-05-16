@@ -5,27 +5,62 @@
 
 \setlength{\textheight}{10in}
 
+\usepackage{multicol}
+
 \begin{document} 
 \name{Colin `Logan' Campbell-McPherson}
 \address{
   \begin{tabular}{r l}
-    +61438 050 887 & colin@logaan.net \\
-    www.logaan.net & www.github.com/logaan
+    +61 438 050 887 & colin@logaan.net \\
+    logaan.github.io & github.com/logaan
   \end{tabular}
 }
 
 \begin{resume}                        
 
-  \section{SKILLS} 
-  \textbf{Programming} Ruby, Javascript, Erlang, Python, PHP, ASP
-  Classic, Bash, Lisp\\
-  \textbf{Frameworks} Ruby on Rails, jQuery, Prototype, YUI, Nitrogen, Sinatra, Alfresco Surf \\
-  \textbf{Operating Systems} Linux, OS X, Windows
+  \begin{multicols}{2}
+    \section{SKILLS} 
+    \textbf{Languages} \\
+    Clojure, ClojureScript, Javascript, Ruby, Python, Java,
+    Erlang, Haskell, Cold Fusion, PHP, ASP Classic, Vimscript
 
- \section{EXPERIENCE}
-   Hard Hat Digital. South Yarra, Vic. \\
-   Senior Programmer.  June 2010 to May 2011.
- \begin{itemize}
+    \textbf{Frameworks} \\
+    Liberator, Reagent, React, Angular, Rails, Swing,
+    Dropwizard, Prototype, YUI, Nitrogen, Alfresco Surf
+
+    \textbf{Tools} \\
+    Docker, AWS, Heroku, Postgres, Cassandra, Datomic, RabbitMQ \\
+
+    \textbf{Practices} \\
+    Scrum, Kanban, Lean, SAFe, TDD, Pair Programming, CI, CD
+  \end{multicols}
+
+  \section{EXPERIENCE}
+
+  Silverpond. Melbourne, Vic. \\
+  Software Engineer.  July 2011 - November 2012.
+  \begin{itemize}
+  \item Aus Post
+  \item Powercor
+  \item 7-Eleven
+  \item Bluechiip
+  \end{itemize} 
+
+  ThoughtWorks. Melbourne, Vic. \\
+  Consultant Developer.  July 2011 - November 2012.
+  \begin{itemize}
+  \item NBN
+  \item Live below the line
+  \item IOOF
+  \item My Red Alert
+  \item New Organising Institute - Ballot Information Project
+  \item Aus Registry
+  \item Hitnet
+  \end{itemize} 
+
+  Hard Hat Digital. South Yarra, Vic. \\
+  Senior Programmer.  June 2010 to May 2011.
+  \begin{itemize}
   \item Implementing HHD's CMS on client websites (RoR)
   \item Publishing open source projects (RoR, Clojure - github.com/hhd)
   \item Extending HHD's CMS (RoR)
@@ -33,36 +68,52 @@
   \item Maintaining legacy websites (PHP)
   \end{itemize} 
 
-   Curtin University of Technology. Bentley, WA. \\
-   Web Programmer.  July 2009 to Jan 2010.
- \begin{itemize}
-  \item Developing an Enterprise Document
-    Management System (JS, Alfresco)
+  Curtin University of Technology. Bentley, WA. \\
+  Web Programmer.  July 2009 to Jan 2010.
+  \begin{itemize}
+  \item Developing an Enterprise Document Management System (JS, Alfresco)
   \end{itemize} 
 
   Webfirm. East Perth, WA. \\
   Programmer.  September 2007 to July 2008. \\
   Senior Programmer. July 2008 to July 2009.
- \begin{itemize}
-  \item Building custom web applications (RoR)
-  \item Internal development (RoR, ASP)
-  \item Championing and designging proceses and
-    architectures
-  \item Training staff (SVN, Git, Unobtrusive JS,
-    OO, RoR)
-  \item Implementing Webfirm's CMSs on client
-    websites (RoR, ASP)
-  \item Search Engine Optimisation
-  \item Ecommerce
+  \begin{itemize}
+  \item Hackless
+  \item Houston
+  \item Bringing in rails
+  \item Bringing in SVN and then Git
+  \item Writing new CMS
+  \item Client sites
   \end{itemize} 
 
-  Freelance Programmer. 2006-2007.
+  %  Freelance Programmer. 2006-2007.
+  %
+  %  Personal open source projects available at github.com/logaan
 
-  Personal open source projects available at github.com/logaan and ginrummy.logaan.net
+  \begin{multicols}{2}
+    \section{TALKS}
+    \textbf{EuroClojure 2014} \\
+    Clojure at a Post Office
 
-  \section{ACTIVITIES}
-  Presented at Webjam 2008 (Perth), Attended Edge of the Web 2008 (Perth), Attended
-  Ruby Kaigi 2009 (Japan), Member of Perth RoRo usergroup
+    \textbf{Melbourne FP User Group} \\
+    Intro to Erlang, A Monad is not a Burrito, Clojure Workshop, Promise Streams,
+    OO values in FP languages, Clojure at a Post Office, Intro to Elixir, Full
+    Stack development with FP (Panel)
+
+    \textbf{Melbourne Clojure User Group} \\
+    Intro to Datomic, Promise Streams, Async IO Coordination, Nonaga, Squid
+
+    \columnbreak
+
+    \textbf{Australia Post Digital Mailbox} \\
+    Async IO Coordination, Clojure Workshop, CQRS with Cassandra
+
+    \textbf{ThoughtWorks Internal Conferences} \\
+    Why Functional Programming matters, Introduction to Erlang
+
+    \textbf{Webjam} \\
+    Automated CMS backend website generation
+  \end{multicols}
 
   \section{EDUCATION}
   Curtin University of Technology, Western Australia. \\
@@ -71,15 +122,15 @@
   BsC Computer Science. 2005-2007. Did not complete.
 
   \section{REFEREES}
-  Andrew Buntine, Lead Developer. \\
+  Andrew Buntine, Technical Director. \\
   Hard Hat Digital, Melbourne. \\
   info@andrewbuntine.com \\
-  Mobile: 0423 638 309 \\
+  0423 638 309 \\
   \\
-  Catie Bushell BA Psych (Hon) \\
-  Associate MAPPS. Research Designer and Analyst. \\
-  Organisational Psychologist. \\
-  Mobile: 0417 905 919 \\
+  James Sofra, Consultant Developer. \\
+  Troy-West, Melbourne. \\
+  james.sofra@gmail.com \\
+  0425 723 375
 
 \end{resume} 
 
