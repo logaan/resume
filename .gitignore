@@ -1,3 +1,7 @@
 *.log
 *.gz
 *.swp
+resume.aux
+resume.dvi
+resume.fdb_latexmk
+resume.fls

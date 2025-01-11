@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+nix run \
+  'nixpkgs#texlivePackages.latexmk' \
+  -- \
+  -pdf \
+  resume.tex
+
+open resume.pdf
