@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-rm resume.pdf
+rm -f resume.pdf
 
 ./bin/tex2pdf resume.tex
 
